@@ -12,7 +12,7 @@ public class x1 extends BaseTest{
 
 		}
 	@Test(priority=1)
-	public void Test4() throws InterruptedException{
+	public void Test3() throws InterruptedException{
 		webtest.click("xpath=//span[contains(.,'系统')]");
 		webtest.click("xpath=//div[@onclick='clickmenu(this,0,-1)']");
 		webtest.click("xpath=//div[@onclick='clickmenu(this,0,0)']");
