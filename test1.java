@@ -22,3 +22,5 @@ public class x1 extends BaseTest{
 		webtest.click("id=searchbtn");		
 	}
  }
+
+
