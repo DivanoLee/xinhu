@@ -11,7 +11,7 @@ public class x10 extends BaseTest{
 		webtest.click("xpath=//button[@name='button']");
 		}
 	@Test(priority=1)
-	public void Test9() throws InterruptedException{
+	public void Test10() throws InterruptedException{
 		webtest.click("xpath=//span[contains(.,'系统')]");
 		webtest.click("xpath=//div[@onclick='clickmenu(this,1,-1)']");
 		webtest.click("xpath=//div[@onclick='clickmenu(this,1,1)']");
